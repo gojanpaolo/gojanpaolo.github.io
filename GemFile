@@ -1,3 +1,7 @@
 source 'https://rubygems.org'
 
+# https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll#step-3-optional-generate-jekyll-site-files
+gem 'github-pages', group: :jekyll_plugins
+
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
 gem 'jekyll-seo-tag'
